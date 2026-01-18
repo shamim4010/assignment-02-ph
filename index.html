@@ -9,17 +9,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
-<body class="w-fullf max-w-[1600px] h-screen font-[Inter]">
-    <header class="">
-        <nav class="fixed w-full bg-[#1A0B2E] pt-[16px] pb-[16px] pl-[20px] pr-[20px] flex justify-between items-center">
+<body class="w-full max-w-[1600px] h-screen bg-[#1A0B2E] text-white font-[Inter]">
+    <header>
+        <nav class="w-full bg-[#1A0B2E] pt-[16px] pb-[16px] pl-[20px] pr-[20px] flex justify-between items-center">
             <div>
-                <h1 class="text-white text-4xl font-bold">Tech<span class="bg-[linear-gradient(15deg,rgb(247,233,63)_0%,rgb(213,6,205)_50%,rgb(145,0,248)_100%)] text-transparent bg-clip-text">Wave</span></h1>
+                <h1 class="text-4xl font-bold">Tech<span class="bg-[linear-gradient(15deg,rgb(247,233,63)_0%,rgb(213,6,205)_50%,rgb(145,0,248)_100%)] text-transparent bg-clip-text">Wave</span></h1>
             </div>
             <div>
                 <img src="./assets/hamburger-menu.png" alt="" width="24">
             </div>
         </nav>
-        <section></section>
+        <section class="w-full h-[602px]">
+            <div class="relative bg-[url(./assets/hero-bg.png)] bg-center bg-cover bg-no-repeat pl-[20px] pr-[20px] flex flex-col justify-cneter items-center">
+                <div class="pt-[50px]">
+                    <div class="w-[250px] h-[250px] bg-[url(./assets/hero-circle.png)] bg-center bg-cover bg-no-repeat flex flex-col items-center justify-center"><img src="./assets/microphone.png" alt="" width="80"></div>
+                    <p class="absolute pt-[8px] pb-[8px] pl-[16px] pr-[16px] bg-[#00FF88] rounded-full text-[#1A0B2E] font-semibold leading-[24px] top-[36px] right-[180px]">NEW</p>
+                </div>
+                <h1>TechWave</h1>
+                <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div>
+                    <button><img src="./assets" alt=""></button>
+                    <button><img src="./assets" alt=""></button>
+                </div>
+            </div>
+        </section>
     </header>
     <main></main>
     <footer></footer>
