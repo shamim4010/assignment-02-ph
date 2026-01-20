@@ -11,11 +11,11 @@
 </head>
 <body class="w-full max-w-[1600px] h-screen bg-[#1A0B2E] text-white font-[Inter]">
     <header>
-        <nav class="fixed w-full bg-[#1A0B2E] pt-[16px] pb-[16px] pl-[24px] pr-[24px] flex justify-between items-center z-[2] min-[992px]:pr-[200px] min-[992px]:pl-[200px]">
+        <nav class="fixed w-full bg-[#1A0B2E] pt-[16px] pb-[16px] pl-[24px] pr-[24px] flex justify-between items-center z-[2]  transition-all duration-[1s] ease-in-out min-[992px]:pr-[200px] min-[992px]:pl-[200px]">
             <div>
                 <h1 class="text-4xl font-bold">Tech<span class="bg-[linear-gradient(15deg,rgb(247,233,63)_0%,rgb(213,6,205)_50%,rgb(145,0,248)_100%)] text-transparent bg-clip-text">Wave</span></h1>
             </div>
-            <ul class="hidden min-[992px]:block min-[992px]:flex min-[992px]:gap-[32px]">
+            <ul class="absolute left-[40%] flex gap-[32px] opacity-[0] transition-opacity duration-[1s] ease-in-out min-[992px]:relative min-[992px]:left-[0%] min-[992px]:opacity-[1]">
                 <li><a href="">About</a></li>
                 <li><a href="">Episodes</a></li>
                 <li><a href="">Host</a></li>
@@ -41,14 +41,14 @@
         </section>
     </header>
     <main>
-        <article class="pt-[40px] mb-[40px] pl-[24px] pr-[24px] min-[992px]:pl-[200px] min-[992px]:pr-[200px]  min-[992px]:mb-[120px]">
+        <article class="pt-[40px] mb-[40px] pl-[24px] pr-[24px]  transition-all duration-[1s] ease-in-out min-[992px]:pl-[200px] min-[992px]:pr-[200px]  min-[992px]:mb-[120px]">
             <section class="text-center mb-[40px] min-[992px]:mb-[80px]">
                 <h2 class="text-4xl mb-[16px]">About the Podcast</h2>
                 <p class="opacity-[0.8] pb-[12px]">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.</p>
                 <p class="opacity-[0.8]">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
             </section>
             <hr class="opacity-[0.2]">
-            <section class="flex flex-wrap justify-around gap-[80px] mt-[40px] min-[992px]:gap-[0] min-[992px]:justify-between min-[992px]:mt-[80px]">
+            <section class=" flex flex-wrap justify-around gap-[80px] mt-[40px] min-[992px]:gap-[0] min-[992px]:justify-between min-[992px]:mt-[80px]">
                 <div class="text-center">
                     <h2 class="text-4xl text-[#00FF88]">150K+</h2>
                     <p>Monthly Listeners</p>
@@ -67,9 +67,9 @@
                 </div>
             </section>
         </article>
-        <section class="bg-[#230E3D] flex flex-col justify-center items-center gap-[16px] pt-[40px] pb-[40px] min-[992px]:pl-[200px] min-[992px]:pr-[200px] min-[992px]:pt-[120px]  min-[992px]:pb-[120px] min-[992px]:mb-[120px] min-[992px]:grid min-[992px]:place-items-center min-[992px]:grid-cols-3">
+        <section class="bg-[#230E3D] flex flex-col justify-center items-center gap-[16px] pt-[40px] pb-[40px]  transition-all duration-[1s] ease-in-out min-[992px]:pl-[200px] min-[992px]:pr-[200px] min-[992px]:pt-[120px]  min-[992px]:pb-[120px] min-[992px]:mb-[120px] min-[992px]:grid min-[992px]:place-items-center min-[992px]:grid-cols-3">
             <h2 class="text-4xl font-semibold mb-[16px] min-[992px]:col-span-3">Why Choose TechWave</h2>
-            <div class="bg-[#230E3D] w-full p-[24px] flex flex-col gap-[14px] rounded-[24px] shadow-[0_0_20px_rgba(0,0,0,0.3)] min-[992px]:row-span-2 min-[992px]:col-span-1">
+            <div class="bg-[#230E3D] w-full p-[24px] flex flex-col gap-[14px] rounded-[24px] shadow-[0_0_20px_rgba(0,0,0,0.3)] min-[992px]:row-span-2 min-[992px]:col-span-1 min-[992px]:h-full min-[992px]:justify-center">
                 <img src="./assets/headphone.png" alt="" width="60">
                 <h3 class="text-2xl font-medium">Premium Audio Quality</h3>
                 <p class="opacity-[0.7]">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
@@ -95,7 +95,7 @@
                 <p class="opacity-[0.7]">Access show notes, transcripts, and additional learning materials for every episode.</p>
             </div>
         </section>
-        <section class="flex flex-col justify-center items-center gap-[16px] mt-[40px] mb-[60px] pl-[24px] pr-[24px] min-[992px]:pl-[200px] min-[992px]:pr-[200px]  min-[992px]:mb-[120px]">
+        <section class="flex flex-col justify-center items-center gap-[16px] mt-[40px] mb-[60px] pl-[24px] pr-[24px]  transition-all duration-[1s] ease-in-out min-[992px]:pl-[200px] min-[992px]:pr-[200px]  min-[992px]:mb-[120px]">
             <h2 class="text-4xl font-semibold mb-[16px]">Featured Episodes</h2>
             <div class="flex flex-col justify-center items-center gap-[16px] min-[992px]:flex-row min-[992px]:items-start">
                 <div class="bg-[#230E3D] relative w-full h-[460px] rounded-[24px] overflow-hidden">
@@ -130,7 +130,7 @@
                 </div>
             </div>
         </section>
-        <section class="flex flex-col justify-center items-center mb-[40px] pl-[24px] pr-[24px] min-[992px]:pl-[200px]  min-[992px]:mb-[120px] min-[992px]:pr-[200px]">
+        <section class="flex flex-col justify-center items-center mb-[40px] pl-[24px] pr-[24px]  transition-all duration-[1s] ease-in-out min-[992px]:pl-[200px]  min-[992px]:mb-[120px] min-[992px]:pr-[200px]">
             <h2 class="text-4xl font-semibold mb-[20px]  min-[992px]:mb-[40px]">Meet the Host</h2>
             <div class="bg-[#230E3D] w-full flex flex-col justify-center items-center gap-[16px] rounded-[24px] p-[24px] min-[992px]:flex-row">
                 <div class="w-[150px] h-[150px] rounded-full min-[992px]:w-[300px] min-[992px]:h-[300px] min-[992px]:flex min-[992px]:items-center"><img src="./assets/host.png" alt=""></div>
