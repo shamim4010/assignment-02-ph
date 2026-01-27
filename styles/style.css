@@ -22,7 +22,7 @@
     rgb(213, 6, 205) 50%,
     rgb(145, 0, 248) 100%
   );
-  animation: color-rotate 1.5s linear infinite;
+  animation: color-rotate 0.5s linear infinite;
 }
 
 background-contain {
@@ -57,9 +57,30 @@ background-contain {
 }
 
 @keyframes microphone {
-  to {
-    transform: scale(1.2);
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1)
+  }
+  100% {
+    transform: scale(0.5)
   }
 }
 
+.new-text {
+  animation: new-jump 1.2s step-end infinite;
+}
+
+@keyframes new-jump {
+  0% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-4px);
+  }
+}
 
